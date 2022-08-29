@@ -1,4 +1,5 @@
 import CourseForm from './components/CourseForm';
+import CourseList from './components/CourseList';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         marginBottom: "2rem"
       }}> My Courses</h1>
       <CourseForm/>
+      <CourseList/>
     </div>
   );
 }
